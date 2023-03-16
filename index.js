@@ -1,102 +1,36 @@
-// // function monday(){
+function receivesAFunction(callback){
 
 
-// // console.log("Go for  a five-mile run");
-// // console.log("Pump iron");
-
-// // }
-
-// // function Tuesday(){
-
-// // console.log("Go for a five-mile run");
-// // console.log("Swim  40  laps");
-
-// // }
+   callback();    //callback function
 
 
-// // function wednesday(){
-
-// // console.log("Go for a five-mile run");
-// // console.log("Go for a five mile run");
+}
 
 
-// // }    
+function returnsANamedFunction(){
 
 
+    //Define the named function
 
-// // function Thursday(){
+     function namedFunction(){
+       //function body
 
-// // console.log("Go for  a five-mile run");
-// // console.log("pump iron");
+     }
+
+
+     return  namedFunction;  // return the named function
+
+
+}
 
 
 
-// // }
+function returnsAnAnonymousFunction(){
 
-
-// // function friday(){
-
-// // console.log("Go for a five-mile run");
-// // console.log("Swim 40 laps");
-
-// // }
-
-
-
-// function  runFiveMiles(){
-
-// console.log("Go for  a five-mile run");
-
-
-// }
-
-
-// function  liftWeights(){
-
-// console.log("pump iron");
-
-
-// }
-
-
-// function swimFortyLaps(){
-
-// console.log("Swim 40 laps");
-
-// }
-
-
-// function monday(){
-
-//     runFiveMiles();
-//     liftWeights();
-// }
-
-// function exerciseRoutine(postRunActivity){
-
-// runFiveMiles();
-// postRunActivity();
-
-
-// }
-
-
-// function Monday() {
-//   exerciseRoutine(liftWeights);
-// }
-
-// function exerciseRoutine(postRunActivity) {
-//   runFiveMiles();
-//   postRunActivity();
-// }
-
-// console.log(monday());
-
-exerciseRoutine(() => {
-
-
-    console.log("Stretch!   work that core ");      
-
-
-});
+// returns anonymous function
+    return function(){
     
+        //function body
+
+    }
+}
